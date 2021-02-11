@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #1C1A1C;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+p {
+    text-align: center;
+    font-weight: bold;
+}
+
+form {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+#inputValue {
+    width: 760px;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    outline: none;
+    color: black;
+    background-color: white;
+    border: 1px solid #8C3F5B;
+    border-radius: .25rem;
+}
+
+#search {
+    color: white;
+    background-color: #8C3F5B;
+    border: transparent;
+    outline: none;
+    min-height: 38px;
+    font-weight: 400;
+    text-align: center;
+    cursor: pointer;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    margin: 10px;
+}
+
+#movies-searchable {
+    margin-top: 20px;
+}
+
+section {
+    display: flex;
+    width: 200%;
+    overflow: auto;
+}
+
+section img {
+    width: 150px;
+    height: 210px;
+    transition: 250ms all;
+}
+
+img:hover {
+    margin-left: 0 40px;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.content {
+    border: 1px solid transparent;
+    height: 200px;
+    display: none;
+}
+
+.content div {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 10px;
+}
+
+.content-display {
+    display: block;
+}
